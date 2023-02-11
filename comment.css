@@ -1,0 +1,88 @@
+/*created by Sarika Kulkarni
+
+*/
+#feedback{
+  width: 50%;
+  margin: auto;
+}
+/* Fieldset styles */
+fieldset {
+    
+    background-color: rgba(255, 165, 0, 0.5);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    width: 90%;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    clear: left;
+    float: left;
+    /*font-size: 0.9em;*/
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Input control styles */
+input,select, textarea {
+    float: right;
+    font-size: 0.9em;
+    width: 55%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-inline { 
+    float: none;
+    width:auto;
+}
+
+textarea {
+    height: 150px;
+}
+
+input#submit {
+    clear: left;
+    clear: right;
+    clear: up;
+    clear: down;
+    display: block;
+    float: none;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background: #2b22b9;
+}
+
+input:focus {
+    background-color: rgb(255,255,240);
+}
+
+input:focus:valid {
+    background: rgb(255,240,225) url(images/go.png) bottom right no-repeat;
+}
+
+input:focus:invalid {
+    background: rgb(240,225,225) url(images/stop.png) bottom right no-repeat;
+}
+
+.error {
+    color: red;
+}
+
+.success { 
+    color: green;
+}
+
+fieldset h1 {
+    text-align: center;
+}

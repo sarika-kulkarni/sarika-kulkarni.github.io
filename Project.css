@@ -1,0 +1,302 @@
+/* created by Sarika Kulkarni
+
+*/
+
+
+article, aside, header, footer, section, nav {
+   display: block;
+}
+
+/* Body styles */
+
+body {
+  font-family: 'Brush Script MT', cursive;
+   background: url(images/background.jpg) no-repeat;
+   background-size: cover;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.5em;
+   width: 80%;
+   margin: 0px auto;
+   padding: 0px 10px;
+   text-decoration: none;
+   vertical-align: baseline;
+}
+
+/* Header styles */
+
+header {
+  position: relative;
+  width: 100%;
+  background: url(images/banner.jpg) no-repeat;
+  background-size: cover;
+  height:400px;
+}
+
+header h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  color: orange;
+  font-weight: bolder;
+  font-size: 3.5em;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5em;
+  letter-spacing: 5px;
+}
+
+header h2{
+  color: #2b22b9;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 70px;
+  left: 170px;
+
+}
+
+header img {
+  float: left;
+}
+
+/*Navigation list styles */
+
+nav ul {
+  margin-left: -50px;
+}
+
+nav ul li {
+  margin-bottom: 25px;
+}
+
+ nav ul li:first-of-type{
+   text-transform: uppercase;
+ }
+
+nav li{
+   display: block;
+   list-style-type: none;
+   padding: 5px 10px;
+   float: left;
+}
+
+nav li a{
+  color: #2b22b9;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bolder;
+  padding: 10px;
+  background: orange;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+}
+
+nav li a:hover {
+   background-color: #de16ba;
+}
+
+p#first:first-of-type::first-letter{
+  font-size: 300%;
+}
+/* Styles of Sidebar  */
+
+aside {
+   border: #2b22b9;
+   background:orange;
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+   float: right;
+   margin: 10px 0px 20px 20px;
+   padding: 20px;
+   width: 250px;
+
+}
+ aside h3{
+   color: #2b22b9;
+ }
+ aside a{
+      text-decoration: none;
+ }
+
+/*Blockquote  styles */
+
+
+blockquote#comment{
+  clear: both;
+  text-align: center;
+  padding: 10px;
+}
+blockquote#comment h2{
+  color: #de16ba;
+}
+blockquote#guide{
+  margin-top: 100px;
+}
+
+.content h3{
+  clear: left;
+}
+
+.content h2{
+  clear: left;
+  color: #de16ba;
+}
+
+
+.summaryimage{
+float: left;
+width: 300px;
+height: auto;
+margin-right: 20px;
+margin-bottom: 30px;
+}
+
+/* Styles for Activity Table  */
+
+
+table.activity{
+
+    border-collapse: collapse;
+    text-align: center;
+    width: 75%;
+}
+
+table.activity col.firstCol{
+  background: #8bc34a;
+}
+
+table.activity thead{
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.7);
+  background: #2b22b9;
+}
+
+table.activity th, table.activity td {
+  border: 2px solid black;
+  padding: 10px;
+
+}
+
+h1.content {
+  color: #de16ba;
+}
+/* Footer Styles */
+footer {
+   background-color: orange;
+   clear: both;
+   margin-top: 30px;
+   padding: 10px 0px;
+}
+
+footer address {
+   color: #2b22b9;
+   font-style: normal;
+   font-size: 0.8em;
+   text-align: center;
+}
+
+/* Styles for Alphabets.html  */
+
+#alphabet{
+
+width: 80%;
+}
+
+.content h1{
+  color: #de16ba;
+  padding-top: 20px;
+}
+/* Styles for Shapes.html  */
+
+.shape{
+width: 60px;
+}
+
+.shapes{
+  text-align: center;
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+}
+
+section #shapes_table{
+  clear: both;
+}
+
+#colors{
+  float: right;
+  margin: 0 0 20px 20px;
+  width: 40%;
+}
+/* Styles for Shape Table  */
+
+#teach-shapes{
+  clear: both;
+  color:  #de16ba;
+  padding-top: 20px;
+}
+
+table.shapes th{
+  background-color: #f15924;
+  font-size: 2em;
+}
+table.shapes td{
+background-color: #fef8a2;
+}
+
+table.shapes th, td {
+  border: 1px solid gray;
+  padding: 10px 30px;
+}
+table.shapes{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Styles for Numbers.html  */
+
+#number-act {
+  float: right;
+  width: 40%;
+  margin: 0 0 25px 25px;
+}
+
+.content {
+  clear: both;
+  margin: auto;
+}
+
+.numbers-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  clear: both;
+  background-color: green;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.number {
+  width: 200px;
+  background-color: yellow;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.number h1 {
+  font-size: 5em;
+  margin-bottom: 0;
+}
+
+.number p {
+  font-size: 2em;
+}
+
+.content li {
+  margin-bottom: 5px;
+}
